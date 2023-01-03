@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    color: blueviolet;
+}
+
+#Zawardo {
+    color: black;
+    font-size: 18px;
+    border: solid orange;
+
+  }
+p{
+    color: rgb(0, 255, 85);
+    width: 250px;;
+    font-weight: lighter;
+    size: 11cm;
+}
+h1{
+    color: bisque;
+    width: 1200px;
+}
+section {
+    width: 300px;
+    border: 15px solid rgb(145, 8, 103);
+    padding: 50px;
+    margin: 20px;
+  }
+  
+.clase1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: yellowgreen;
+
+}
+style{
+    
+}
