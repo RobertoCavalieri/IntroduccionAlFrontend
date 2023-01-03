@@ -7,11 +7,16 @@
     <title>Bombita Rodriguez</title>
 </head>
 <body>
-    <h1>La tercera posición</h1>
-    <h2>La venganza de Perón</h2>
-    <h3>Ezeiza ataca de nuevo</h3>
-    <h4>La ortodoxia al poder</h4>
-    <h5>Imberbes</h5>
-    <p>Hola Perón!</p>
+    <p id="demo">
+    </p>
+    <p id="demo2">
+    </p>
+    <script>
+        const personas = '{"firstName":"John", "lastName":"Doe"}';
+        const obj = JSON.parse(personas);
+        console.log(obj)
+        document.getElementById("demo").innerHTML = "firstName: " +obj.firstName;
+        document.getElementById("demo2").innerHTML = "lastname: " +obj.lastName;
+    </script>
 </body>
-</html>
+</html> 
